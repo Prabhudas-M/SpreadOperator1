@@ -3,16 +3,16 @@ import ReactDOM from "react-dom";
 import App from "./components/App";
 
 const FatherObj = {
-  name:"prabhudas",
-age:47
+  namee:"prabhudas",
+agee:47
 }
 
 const Mother ={
-...FatherObj,
+FatherObj,
 name : "Suganthi",
 age:45
 }
 
-console.log(Mother);
+//console.log(Mother);
 
 ReactDOM.render(<App />, document.getElementById("root"));
